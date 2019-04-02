@@ -1,2 +1,5 @@
 yourName = input("Hello. What is your name?")
-print("Your name is ",yourName)
+if(yourName=='Bob'):
+	print("Your name is ",yourName)
+elif(yourName=='Ann'):
+	print("Your name is ",yourName)

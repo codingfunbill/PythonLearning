@@ -4,8 +4,9 @@ print("Hello All!")
 print(9-1)
 print(2 * 15)
 print(125 + 15)
-myInput = input("Please enter something:") 
-print("You entered: ", myInput)
+myInput = input("Please enter your name:") 
+if(myInput =='Bob'):
+	print("You entered: ", myInput)
 #2 variables, print their addition , subtraction, div, mult, mod
 
 number1 = 10

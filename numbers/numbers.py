@@ -1,4 +1,5 @@
 #Guillermo Mejia
+#4/6/19
 #Program accepts 3 numbers and displays smallest and largest of the 3
 n = 0
 n = int(input("Please enter a number: "))

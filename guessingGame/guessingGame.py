@@ -14,10 +14,10 @@ while(guessNumber!=number):
 	#user inputs a guess number
 	guessNumber = int(input("Please guess the correct number from 1 to 100: "))
 	count+=1
-	if(guessNumber!=number and guessNumber > number):
+	if(guessNumber > number):
 		print("Incorrect, try a lower number")
-	elif(guessNumber!=number and guessNumber < number):
+	elif(guessNumber < number):
 		print("Incorrect, try a higher number")
-	elif(guessNumber==number):
-		print("Congratulations!",number,"was the correct number.")
-		print("You got it right after ",count,"attempts.")
+				
+print("Congratulations!",number,"was the correct number.")
+print("You got it right after ",count,"attempts.")
